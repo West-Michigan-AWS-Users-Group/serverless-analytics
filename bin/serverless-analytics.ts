@@ -7,7 +7,7 @@ const app = new cdk.App();
 
 new ServerlessAnalyticsStack(app, 'serverless-analytics', {
   env: {
-    account: '590183969109',
+    account: process.env.CDK_DEFAULT_ACCOUNT,
     region: 'us-east-2',
   },
   sharedTags: {
