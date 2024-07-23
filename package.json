@@ -1,6 +1,6 @@
 {
   "name": "serverless-analytics",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "bin": {
     "serverless-analytics": "bin/serverless-analytics.js"
   },
@@ -22,7 +22,7 @@
   "dependencies": {
     "aws-cdk-lib": "2.147.2",
     "constructs": "^10.0.0",
-    "serverless-website-analytics": "^1.11.1",
+    "serverless-website-analytics": "^1.12.0",
     "source-map-support": "^0.5.21"
   }
 }
